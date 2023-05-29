@@ -1,6 +1,7 @@
 @echo off
 
 title hwid checker
+
 :hwidcheck
 cls
 wmic diskdrive get model, serialnumber
